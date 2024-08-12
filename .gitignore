@@ -41,3 +41,83 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+
+# Generated plugin registrant and platform specific dependencies:
+web/
+windows/
+macos/
+linux/
+
+# Android dependency files:
+/android/.gradle/
+/android/*.iml
+/android/local.properties
+/android/captures
+/android/app/src/debug/
+/android/app/src/profile/
+/android/apis.json
+
+## iOS-related files:
+ios/Pods
+ios/.symlinks
+ios/.flutter-plugins
+ios/Flutter/.last_build_id
+ios/Podfile.lock
+
+DerivedData
+*.xcworkspace
+xcuserdata
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# IntelliJ related files:
+/idea/
+/.classpath
+.project
+.settings/
+
+# VS Code related files:
+.vscode/
+
+# Amplify related files:
+amplify/\#current-cloud-backend
+amplify/backend/awscloudformation
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation.json
+amplify/team-provider-info.json
+amplify/#current-cloud-backend.zip
+amplify/.temp/*
+amplify-xcode/*
+amplifyconfiguration.json
+awsconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplify-tools-config.json
+
+# JetBrains IDE related files:
+*.iml
+.idea/
+
+# Miscellaneous system files:
+.DS_Store
+*.orig
+
+# Log files:
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pubspec.lock
+
+# Temporary Files
+tmp/
+temp/

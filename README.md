@@ -1,16 +1,15 @@
 # callai
 
-A new Flutter project.
+flutter create my_amplify_app
+cd my_amplify_app
 
-## Getting Started
+npm create amplify@latest -y
 
-This project is a starting point for a Flutter application.
+npx ampx sandbox --outputs-format dart --outputs-out-dir lib
 
-A few resources to get you started if this is your first Flutter project:
++ pubspec.yaml
+dependencies:
+  amplify_flutter: ^2.0.0
+  amplify_auth_cognito: ^2.0.0
+  amplify_authenticator: ^2.0.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
